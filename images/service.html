@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mess Service</title>
+	
+    <link rel="stylesheet" href="service.css">
+</head>
+<body>
+	<div class="header">Mess Service</div>
+    <div class="wrapper1">
+	<div class="box">
+		<h2>Buy Milk</h2>
+		<form action="" method="post">
+			<label for="milk_qty">Quantity:</label>
+			<input type="number" name="milk_qty" id="milk_qty" min="1" max="10" required>
+			<br><br>
+			<label for="milk_type">Type:</label>
+			<select name="milk_type" id="milk_type">
+				<option value="full_cream">Full Cream</option>
+				<option value="low_fat">Low Fat</option>
+				<option value="skimmed">Skimmed</option>
+			</select>
+			<br><br>
+			<input type="submit" value="Buy Now">
+		</form>
+	</div>
+	<div class="box">
+		<h2>Buy Curd</h2>
+		<form action="" method="post">
+			<label for="curd_qty">Quantity:</label>
+			<input type="number" name="curd_qty" id="curd_qty" min="1" max="10" required>
+			<br><br>
+			<label for="curd_type">Type:</label>
+			<select name="curd_type" id="curd_type">
+				<option value="plain">Plain</option>
+				<option value="flavored">Flavored</option>
+			</select>
+			<br><br>
+			<input type="submit" value="Buy Now">
+		</form>
+	</div>
+	<div class="box">
+		<h2>Book Plate</h2>
+		<form action="" method="post">
+			<label for="plate_date">Date:</label>
+			<input type="date" name="plate_date" id="plate_date" required>
+			<br><br>
+			<label for="plate_meal">Meal:</label>
+			<select name="plate_meal" id="plate_meal">
+				<option value="breakfast">Breakfast</option>
+				<option value="lunch">Lunch</option>
+				<option value="dinner">Dinner</option>
+			</select>
+			<br><br>
+			<input type="submit" value="Book Now">
+		</form>
+	</div>
+    <div class="box">
+        <h2>Egg</h2>
+        <form action="" method="post">
+            <label for="Egg_qty">Quantity:</label>
+            <input type="number" name="egg_qty" id="egg_qty" min="1" max="10" required>
+            <br><br>
+            <label for="egg_type">Type:</label>
+            <select name="egg_type" id="egg_type">
+                <option value="white">white</option>
+                <option value="Brown">Brown</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Buy Now">
+        </form>
+    </div>
+	<div class="box">
+		<h2>Payment</h2>
+		<form action="" method="post">
+			<label for="card_number">Card Number:</label>
+			<input type="text" name="card_number" id="card_number" required>
+			<br><br>
+			<label for="card_expiry">Expiry Date:</label>
+			<input type="month" name="card_expiry" id="month" required>
+            <br><br>
+            <label for="Name">Cardholder Name:</label>
+			<input type="text" name="Name" id="name" required>
+            <br><br>
+            <label for="cvv_no">CVV:</label>
+			<input type="password" name="cvvpin" id="pin" required>
+            <br><br>
+            <input type="submit" value="Pay Now">
+            </form>
+        </div>
+       </div>
+        <div class="wrapper2forimage">
+            <div class="milk">
+                <img src="milk.avif" alt="" srcset="">
+            </div>
+            <div class="curd">
+                <img src="curd.avif" alt="" srcset="">
+            </div>
+            <div class="plate">
+                <img src="plate.avif" alt="" srcset="">
+            </div>
+            <div class="egg">
+                <img src="egg.avif" alt="" srcset="">
+            </div>
+            <div class="payment">
+                <img src="pay_card.avif" alt="" srcset="">
+            </div>
+
+        </div>
+        
+            
+</body>
+</html>
+

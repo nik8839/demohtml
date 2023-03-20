@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 8px;
+}
+.Ab{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: blueviolet;
+    justify-content: center;
+    border: 2px solid black ;
+    border-color: aquamarine;
+}
+.button{
+    justify-content: left;
+    text-align: left;
+    font-weight: bolder;
+}
